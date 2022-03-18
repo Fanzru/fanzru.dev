@@ -36,7 +36,7 @@ const Navbar = () => {
       </div>
       {
         menu? 
-        <a onClick={() => {setMenu(false)}}  className="w-screen min-h-screen  z-top-top border-2 backdrop-blur-md fixed flex items-center justify-center ">
+        <a onClick={() => {setMenu(false)}}  className="w-screen min-h-screen  z-top-top  backdrop-blur-md fixed flex items-center justify-center px-8 ">
           <div className="max-w-[430px] border-[3px] border-base-300 py-4 w-full rounded-md border-dashed bg-white flex flex-col items-center drop-shadow-xl shadow-black-700/50">
             {
               dataNavbar.map((data,idx)=> {

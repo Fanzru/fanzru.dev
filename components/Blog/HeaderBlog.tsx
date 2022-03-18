@@ -7,7 +7,7 @@ const HeaderBlog = () => {
             {"blogs"}
           </div>
           <div className="mt-2 opacity-80">
-            {"hehe thanks to visit my projects, if you want to work with me. contact is on the about page."}
+            {"hehe thanks to visit my blog, Happy reading and I hope you enjoy it hehe :)."}
           </div>
         </div>
       </div>
