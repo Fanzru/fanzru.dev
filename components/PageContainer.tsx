@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Navbar from "./Navbar/Navbar"
-import {FC} from 'React'
+import {FC} from 'react'
 
 const PageContainer: FC = ({ children,...props}) => {
 
