@@ -1,8 +1,29 @@
 import '../styles/globals.css'
+import Script from 'next/script'
 import type { AppProps } from 'next/app'
-
+import { NextSeo } from 'next-seo'
 function MyApp({ Component, pageProps }: AppProps) {
-  return <Component {...pageProps} />
+  return (
+    <div className="font-quicksand">
+      <Script strategy="lazyOnload" src={`https://www.googletagmanager.com/gtag/js?id=G-E6P89SPPPD`} />
+      <Script strategy="lazyOnload">
+          {`
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-E6P89SPPPD', {
+              page_path: window.location.pathname,
+              });
+          `}
+      </Script>
+      <NextSeo 
+        title="Hi i'm Affan"
+        description="Hello my name Ananda Affan Fattahila, You can call me Affan. I'm currently studying to become a Software Engineer and Product Engineer. See you next time!"
+      />
+      <Component {...pageProps} />
+    </div>
+  )
+  
 }
 
 export default MyApp

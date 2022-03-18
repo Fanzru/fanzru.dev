@@ -1,3 +1,33 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+.font-quicksand{
+  font-family: 'Quicksand', sans-serif;
+}
+.max-width-component {
+  max-width: 1050px;  
+}
+
+.z-top {
+  z-index: 999;
+}
+.z-top-top {
+  z-index: 9999;
+}
+
+@layer utilities {
+  .scroll-margin-nav {
+    scroll-margin-top: 46px;
+  }
+  @screen md {
+    .scroll-margin-nav {
+      scroll-margin-top: 66px;
+    }
+  }
+}
+.line-break {
+  white-space: pre-wrap;
+}
