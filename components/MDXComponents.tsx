@@ -1,5 +1,5 @@
 import Link from "./Link";
-import { MDXProvider } from "@mdx-js/react";
+// import { MDXProvider } from "@mdx-js/react";
 import Image, { ImageProps } from "next/image";
 //TODO: type definition for each record
 const CustomImage = ({ alt, ...props }: ImageProps) => {
