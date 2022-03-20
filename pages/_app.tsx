@@ -25,7 +25,7 @@ function MyApp({ Component, pageProps }: AppProps) {
           description: "Hello my name Ananda Affan Fattahila, You can call me Affan. I'm currently studying to become a Software Engineer and Product Engineer. See you next time!",
           images: [
             {
-              url: `https://fanzru.dev/default.jpeg`,
+              url: `/default.jpeg`,
             },
           ],
         }}
