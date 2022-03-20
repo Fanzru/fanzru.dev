@@ -1,7 +1,7 @@
 import '../styles/globals.css'
 import Script from 'next/script'
 import type { AppProps } from 'next/app'
-import { NextSeo } from 'next-seo'
+import { NextSeo,DefaultSeo,SocialProfileJsonLd } from 'next-seo'
 function MyApp({ Component, pageProps }: AppProps) {
   return (
     <div className="font-quicksand">
@@ -16,10 +16,38 @@ function MyApp({ Component, pageProps }: AppProps) {
               });
           `}
       </Script>
-      <NextSeo 
+      <DefaultSeo
+        description={"Hello my name Ananda Affan Fattahila, You can call me Affan. I'm currently studying to become a Software Engineer and Product Engineer. See you next time!"}
+        defaultTitle="Hi i'm Affan."
+        titleTemplate={`Fanzru.dev`}
+        openGraph={{
+          title: "Hi i'm Affan.",
+          description: "Hello my name Ananda Affan Fattahila, You can call me Affan. I'm currently studying to become a Software Engineer and Product Engineer. See you next time!",
+          images: [
+            {
+              url: `/default.jpg`,
+            },
+          ],
+        }}
+        twitter={{
+          handle: "@fanzru",
+          cardType: "summary_large_image",
+        }}
+      />
+      <SocialProfileJsonLd
+        type="Person"
+        name="Anvaqta Tangguh Wisesa"
+        url={"fanzru.dev"}
+        sameAs={[
+          "http://www.linkedin.com/in/fanzru",
+          "https://github.com/fanzru",
+          "https://instagram.com/fattahilaaf_",
+        ]}
+      />
+      {/* <NextSeo 
         title="Hi i'm Affan"
         description="Hello my name Ananda Affan Fattahila, You can call me Affan. I'm currently studying to become a Software Engineer and Product Engineer. See you next time!"
-      />
+      /> */}
       <Component {...pageProps} />
     </div>
   )
