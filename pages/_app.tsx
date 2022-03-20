@@ -36,7 +36,7 @@ function MyApp({ Component, pageProps }: AppProps) {
       />
       <SocialProfileJsonLd
         type="Person"
-        name="Anvaqta Tangguh Wisesa"
+        name="Ananda Affan Fattahila"
         url={"fanzru.dev"}
         sameAs={[
           "http://www.linkedin.com/in/fanzru",
