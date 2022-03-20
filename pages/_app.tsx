@@ -17,12 +17,12 @@ function MyApp({ Component, pageProps }: AppProps) {
           `}
       </Script>
       <DefaultSeo
-        description={"Hello my name Ananda Affan Fattahila, You can call me Affan. I'm currently studying to become a Software Engineer and Product Engineer. See you next time!"}
+        description={"Hello my name Ananda Affan Fattahila, You can call me Affan. I'm currently studying to become a Software Engineer and Product Engineer."}
         defaultTitle="Hi i'm Affan."
         titleTemplate={`Fanzru.dev`}
         openGraph={{
           title: "Hi i'm Affan.",
-          description: "Hello my name Ananda Affan Fattahila, You can call me Affan. I'm currently studying to become a Software Engineer and Product Engineer. See you next time!",
+          description: "Hello my name Ananda Affan Fattahila, You can call me Affan. I'm currently studying to become a Software Engineer and Product Engineer.",
           images: [
             {
               url: `/default.jpeg`,
