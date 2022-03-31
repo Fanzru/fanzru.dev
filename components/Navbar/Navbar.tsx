@@ -10,7 +10,7 @@ const Navbar = () => {
         <div className="max-width-component w-full ">
           <div className="w-full flex justify-between h-full items-center  ">
             <NextLink  href={'/'} passHref>
-                <a className="h-full flex items-center font-xl font-semibold px-4">
+                <a className="h-full flex items-center font-xl font-light px-4">
                   fanzru.dev
                 </a>
             </NextLink>
