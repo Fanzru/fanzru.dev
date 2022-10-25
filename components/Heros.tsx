@@ -15,7 +15,7 @@ const Heros = () => {
               You can call me Affan, I'm a Software Engineer and Product Engineer Entusiast.
               I'm Currently working as a <span className=" underline decoration-yellow-400 decoration-2 font-semibold">CEO</span> at
               <NextLink  href="https://kerjago.com" passHref>
-                <a className="font-semibold underline decoration-yellow-400 decoration-2"> kerjago.com</a>
+                <a className="font-semibold underline decoration-yellow-400 decoration-2"> kerjago.com </a>
               </NextLink>
               and as <a className="font-semibold underline decoration-yellow-400 decoration-2">Software Engineer I - Backend</a> at <NextLink  href="https://www.tiket.com/careers/" passHref>
                 <a className="font-semibold underline decoration-yellow-400 decoration-2">Tiket.com</a>
