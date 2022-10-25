@@ -12,19 +12,16 @@ const Heros = () => {
           </div>
           <div className="mt-5">
             <p>
-              You can call me Affan, I'm a Software Engineer and Product Engineer Entusiast. 
+              You can call me Affan, I'm a Software Engineer and Product Engineer Entusiast.
               I'm Currently working as a <span className=" underline decoration-yellow-400 decoration-2 font-semibold">CEO</span> at
               <NextLink  href="https://kerjago.com" passHref>
                 <a className="font-semibold underline decoration-yellow-400 decoration-2"> kerjago.com</a>
               </NextLink>
-              , to be <span className="font-semibold underline decoration-yellow-400 decoration-2">Student Backend Engineer</span> at
-              <NextLink  href="https://sites.google.com/anakbangsabisa.org/generasi-gigih/" passHref>
-                <a className="font-semibold underline decoration-yellow-400 decoration-2"> Generasi Gigih 2.0 by YABB & GoTo </a>
-              </NextLink>
-              and Internship at <NextLink  href="https://www.tiket.com/careers/" passHref>
-                <a className="font-semibold underline decoration-yellow-400 decoration-2">Tiket.com </a>
+              and as <a className="font-semibold underline decoration-yellow-400 decoration-2">Software Engineer I - Backend</a> at <NextLink  href="https://www.tiket.com/careers/" passHref>
+                <a className="font-semibold underline decoration-yellow-400 decoration-2">Tiket.com</a>
               </NextLink> 
-              became <span className="font-semibold underline decoration-yellow-400 decoration-2">Backend Engineer.</span>
+              .
+              
             </p>
           </div>
           
