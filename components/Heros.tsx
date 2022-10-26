@@ -28,7 +28,7 @@ const Heros = () => {
           <div className=" flex mt-6 gap-4 mb-5">
             <button onClick={()=>{router.push("https://github.com/fanzru")}} className="border-2 border-dashed btn btn-outline"><AiFillGithub/></button>
             <button onClick={()=>{router.push("https://linkedin.com/in/fanzru")}} className="border-2 border-dashed  btn btn-outline"><AiFillLinkedin/></button>
-            <button onClick={()=>{router.push("https://drive.google.com/file/d/1ZJOVIRIPiFP6LbCHHPdFLjMocq4ZwFM8/view?usp=sharing")}} className="border-2 border-dashed  btn btn-outline"><AiFillFileText/></button>
+            <button onClick={()=>{router.push("https://drive.google.com/file/d/1DEwPTxojiGC4WfIHxL7LPEaFHMi-5lyn/view?usp=sharing")}} className="border-2 border-dashed  btn btn-outline"><AiFillFileText/></button>
           </div>
           
           <NextLink href={'https://www.linkedin.com/in/fanzru/'} passHref>
