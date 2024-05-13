@@ -22,5 +22,5 @@ I really like and am passionate about  **connecting**  with everyone, so if you 
 **Linkedin** - [https://www.linkedin.com/in/fanzru/](https://www.linkedin.com/in/fanzru/)
 
 
-In addition, you can  [**view and read my resume here.**](https://drive.google.com/file/d/1ZJOVIRIPiFP6LbCHHPdFLjMocq4ZwFM8/view?usp=sharing)  I am very grateful, because you have visited my profile..
+In addition, you can  [**view and read my resume here.**](https://drive.google.com/file/d/1avKUur8mlcXh067rFI2ycoUhyMV51kjM/view?usp=sharing)  I am very grateful, because you have visited my profile..
 `
